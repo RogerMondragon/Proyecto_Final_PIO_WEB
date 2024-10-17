@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/fotos-premium/vista-lateral-pc-portatil-luz-color-sobre-fondo-oscuro-tecnologia-gaming-concept3d-illustratio_882954-39285.jpg?w=900');
+    background-size: contain;
+}
+
+/* Estilo para el icono del carrito en la navegación */
+.nav-link img.social-icon {
+    margin-right: 5px;
+}
+
+/* Estilo principal */
+.hero {
+    height: 125vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero img {
+    width: 95%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#Perifericos .card img {
+    width: 90%;
+    height: 320px;
+    object-fit: contain;
+    object-position: 100%;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.005);
+}
+
+/* Efectos en botones */
+.btn-primary {
+    background-color: #ff5722;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19;
+}
+
+/* Sección de Contacto */
+form .form-control {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #111;
+}
+/* Estilo personalizado para el menú desplegable */
+.navbar .dropdown-menu {
+    background-color: #333;
+    border: none;
+}
+
+.navbar .dropdown-item {
+    color: #fff;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #444;
+    color: #ff1cf7;
+}
+.social-icon {
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
